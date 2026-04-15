@@ -21,7 +21,7 @@ function ApplicationsTab() {
       const params = new URLSearchParams();
       if (statusFilter) params.append('status', statusFilter);
       params.append('limit', '100');
-      const res = await fetch(`${API}/api/careers/applications/all?${params}`, {
+      const res = await fetch(`${API}/careers/applications/all?${params}`, {
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('adminToken')}`
         }
@@ -45,7 +45,7 @@ function ApplicationsTab() {
 
   const updateStatus = async (id, status) => {
     try {
-      const res = await fetch(`${API}/api/careers/applications/${id}/status`, {
+      const res = await fetch(`${API}/careers/applications/${id}/status`, {
         method: 'PUT',
         headers: { 
           'Content-Type': 'application/json',
@@ -67,7 +67,7 @@ function ApplicationsTab() {
   const confirmDelete = async () => {
     if (!deleteId) return;
     try {
-      const res = await fetch(`${API}/api/careers/applications/${deleteId}`, { 
+      const res = await fetch(`${API}/careers/applications/${deleteId}`, { 
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('adminToken')}`

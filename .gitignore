@@ -1,0 +1,24 @@
+# 🔐 Env files
+.env
+.env.*
+server/.env
+client/.env
+
+# 🤖 Agents / private configs
+.agent
+
+# 📦 Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# 🏗 Build files
+dist/
+build/
+
+# 🧾 Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -27,7 +27,7 @@ function JobsTab() {
   const fetchJobs = async () => {
     setLoading(true);
     try {
-      const res = await fetch(`${API}/api/careers?active=all`, {
+      const res = await fetch(`${API}/careers?active=all`, {
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('adminToken')}`
         }
@@ -71,7 +71,7 @@ function JobsTab() {
   const handleSave = async () => {
     setSaving(true);
     try {
-      const url = editing ? `${API}/api/careers/${editing}` : `${API}/api/careers`;
+      const url = editing ? `${API}/careers/${editing}` : `${API}/careers`;
       const method = editing ? 'PUT' : 'POST';
 
       // Clean empty items from arrays
@@ -108,7 +108,7 @@ function JobsTab() {
   const confirmDelete = async () => {
     if (!deleteId) return;
     try {
-      const res = await fetch(`${API}/api/careers/${deleteId}`, { 
+      const res = await fetch(`${API}/careers/${deleteId}`, { 
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('adminToken')}`
@@ -130,7 +130,7 @@ function JobsTab() {
 
   const toggleActive = async (job) => {
     try {
-      const res = await fetch(`${API}/api/careers/${job.jobId}`, {
+      const res = await fetch(`${API}/careers/${job.jobId}`, {
         method: 'PUT',
         headers: { 
           'Content-Type': 'application/json',

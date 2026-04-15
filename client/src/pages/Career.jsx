@@ -90,7 +90,7 @@ const Career = () => {
         formData.append('resume', resumeFile);
       }
 
-      const response = await fetch(`${API_BASE_URL}/api/careers/apply`, {
+      const response = await fetch(`${API_BASE_URL}/careers/apply`, {
         method: 'POST',
         body: formData,
       });
@@ -128,7 +128,7 @@ const Career = () => {
     const fetchJobs = async () => {
       try {
         setLoadingJobs(true);
-        const response = await fetch(`${API_BASE_URL}/api/careers`);
+        const response = await fetch(`${API_BASE_URL}/careers`);
         const data = await response.json();
         if (data.success) {
           setJobs(data.data);

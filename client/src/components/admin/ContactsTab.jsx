@@ -16,7 +16,7 @@ function ContactsTab() {
     try {
       const params = new URLSearchParams();
       if (statusFilter) params.append('status', statusFilter);
-      const res = await fetch(`${API}/api/contact?${params}`, {
+      const res = await fetch(`${API}/contact?${params}`, {
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('adminToken')}`
         }
@@ -34,7 +34,7 @@ function ContactsTab() {
 
   const updateStatus = async (id, status) => {
     try {
-      const res = await fetch(`${API}/api/contact/${id}/status`, {
+      const res = await fetch(`${API}/contact/${id}/status`, {
         method: 'PUT',
         headers: { 
           'Content-Type': 'application/json',
@@ -56,7 +56,7 @@ function ContactsTab() {
   const confirmDelete = async () => {
     if (!deleteId) return;
     try {
-      const res = await fetch(`${API}/api/contact/${deleteId}`, { 
+      const res = await fetch(`${API}/contact/${deleteId}`, { 
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('adminToken')}`
