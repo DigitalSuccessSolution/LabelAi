@@ -1,0 +1,152 @@
+[
+  {
+    "id": "data-annotator",
+    "title": "Freelance Data Annotator",
+    "category": "Data Operations",
+    "vacancies": "10",
+    "workMode": "Remote",
+    "engagement": "Contract",
+    "commitment": "4-6 hours/day",
+    "compensation": "Contractual",
+    "description": "Join our global team to help train the world's most advanced AI models. You will be responsible for high-precision labeling across various data types.",
+    "responsibilities": [
+      "Annotate and label various types of data (image, video, text) according to project guidelines.",
+      "Review annotated data for accuracy and completeness.",
+      "Work collaboratively with data scientists to ensure high-quality output.",
+      "Maintain detailed records of changes made during the process.",
+      "Adhere to strict project deadlines and timelines."
+    ],
+    "requirements": [
+      "0-2 Years experience as a data annotator.",
+      "Proficiency in tools like Supervisely, CVAT, etc.",
+      "Strong attention to detail and quality standards.",
+      "Knowledge of bounding boxes, segmentation, and keypoint labeling.",
+      "Reliable internet connection and hardware."
+    ]
+  },
+  {
+    "id": "admin-ops",
+    "title": "Operations & Admin Coordinator",
+    "category": "Administration",
+    "vacancies": "01",
+    "workMode": "Remote / Hybrid",
+    "engagement": "Full-Time",
+    "commitment": "8-9 hours/day",
+    "compensation": "Monthly Salary",
+    "description": "We are looking for an organized Admin Coordinator to manage our freelancer workforce, handle project scheduling, and oversee administrative operations.",
+    "responsibilities": [
+      "Manage freelancer onboarding and documentation processes.",
+      "Track project progress and coordinate between teams.",
+      "Handle administrative reporting and incentive tracking.",
+      "Oversee day-to-day office operations and virtual collaboration tools.",
+      "Assist in recruitment and quality control processes."
+    ],
+    "requirements": [
+      "Proven experience in administration or operations coordination.",
+      "Expertise in Google Workspace (especially Sheets/Excel).",
+      "Excellent verbal and written communication skills.",
+      "Ability to manage multiple project streams simultaneously.",
+      "Strong organizational and problem-solving skills."
+    ]
+  },
+  {
+    "id": "ai-quality-lead",
+    "title": "AI Content Quality Lead",
+    "category": "Quality Assurance",
+    "vacancies": "02",
+    "workMode": "Remote",
+    "engagement": "Full-Time",
+    "commitment": "8-9 hours/day",
+    "compensation": "Monthly Salary",
+    "description": "Ensure the highest standards of data accuracy for LLM training. You will lead a team of annotators and define quality benchmarks for complex NLP projects.",
+    "responsibilities": [
+      "Develop and refine annotation guidelines for NLP and generative AI projects.",
+      "Conduct regular quality audits and provide feedback to the annotation team.",
+      "Analyze error patterns and implement training modules to reduce edge-case failures.",
+      "Coordinate with client-side AI researchers to align on data quality expectations.",
+      "Build automated quality check workflows for large-scale datasets."
+    ],
+    "requirements": [
+      "Bachelor's degree in Linguistics, Computer Science, or related field.",
+      "3+ years experience in data quality or AI training data management.",
+      "Deep understanding of RLHF (Reinforcement Learning from Human Feedback) workflows.",
+      "Exceptional analytical skills and attention to linguistic nuances.",
+      "Strong leadership and team management experience."
+    ]
+  },
+  {
+    "id": "full-stack-dev",
+    "title": "Full Stack Developer (Internal Tools)",
+    "category": "Technology",
+    "vacancies": "01",
+    "workMode": "Hybrid",
+    "engagement": "Full-Time",
+    "commitment": "8-9 hours/day",
+    "compensation": "Competitive Salary",
+    "description": "Build and maintain the proprietary workforce management and annotation software that powers our global data operations.",
+    "responsibilities": [
+      "Develop scalable web applications using React, Node.js, and MongoDB.",
+      "Build custom annotation interfaces for niche data labeling requirements.",
+      "Optimize backend performance to handle thousands of concurrent freelancer sessions.",
+      "Integrate AI-assisted pre-labeling tools into our core annotation pipeline.",
+      "Maintain enterprise-grade security for client data hosted on our platforms."
+    ],
+    "requirements": [
+      "2+ years experience in Full Stack Development (MERN stack preferred).",
+      "Strong command over JavaScript/TypeScript and modern UI frameworks.",
+      "Experience with cloud infrastructure (AWS/Azure) and Docker.",
+      "Passion for building tools that improve human-AI collaboration.",
+      "Ability to work in an agile, fast-paced environment."
+    ]
+  },
+  {
+    "id": "project-manager-cv",
+    "title": "Project Manager - Computer Vision",
+    "category": "Operations",
+    "vacancies": "02",
+    "workMode": "Remote",
+    "engagement": "Full-Time",
+    "commitment": "8-9 hours/day",
+    "compensation": "Monthly Salary",
+    "description": "Drive end-to-end execution of large-scale Computer Vision projects, from initial pilot to final delivery for global automotive and robotics clients.",
+    "responsibilities": [
+      "Define project scope, timelines, and resource allocation for CV projects.",
+      "Liaise with clients to understand technical requirements and edge cases.",
+      "Monitor project health, burn rates, and delivery quality in real-time.",
+      "Managing risk by identifying potential bottlenecks in the data pipeline.",
+      "Prepare technical delivery reports and participate in QBRs with clients."
+    ],
+    "requirements": [
+      "Proven PM experience in the AI/ML data annotation industry.",
+      "Basic understanding of Computer Vision concepts (Object Detection, Segmentation).",
+      "Proficiency in PM tools like JIRA, Asana, and Slack.",
+      "Excellent client-facing communication and presentation skills.",
+      "PMP or Agile certification is a plus."
+    ]
+  },
+  {
+    "id": "community-specialist",
+    "title": "Community Engagement Specialist",
+    "category": "Marketing",
+    "vacancies": "01",
+    "workMode": "Remote",
+    "engagement": "Contract",
+    "commitment": "4-5 hours/day",
+    "compensation": "Stipend + Incentives",
+    "description": "Grow and nurture our vibrant community of freelance contributors. You will be the voice of LabelzAI across social platforms and contributor forums.",
+    "responsibilities": [
+      "Moderate and engage with the contributor community on Telegram/Discord.",
+      "Create engaging content highlighting contributor success stories.",
+      "Organize webinars and virtual meetups for freelancers.",
+      "Gather contributor feedback to improve the freelancer experience.",
+      "Support the recruitment team by building brand awareness among potential candidates."
+    ],
+    "requirements": [
+      "Excellent social media management and communication skills.",
+      "Experience in community building or social marketing.",
+      "Friendly, proactive personality with high emotional intelligence.",
+      "Ability to create simple graphics and written content.",
+      "Interest in the AI industry and freelance work trends."
+    ]
+  }
+]
