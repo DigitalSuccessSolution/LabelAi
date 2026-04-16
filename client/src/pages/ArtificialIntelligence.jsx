@@ -85,7 +85,7 @@ const ArtificialIntelligence = () => {
     {
       title: "4. Multimodal & Generative AI Data Preparation",
       icon: <Sparkles size={20} />,
-      image: "/ai_ml/generative-ai.png",
+      image: "/ai_ml/Multimodal&Generative.png",
       description: (
         <div className="space-y-4">
            <span className="text-gray-700 text-lg md:text-xl leading-snug font-normal block">We prepare datasets that combine text, image, audio, and video for training advanced multimodal and generative AI models, including prompt-response alignment, content filtering, and quality validation.</span>

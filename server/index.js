@@ -85,9 +85,9 @@ app.get('/api/health', (req, res) => {
 });
 
 // API routes
-app.use('/api/careers', careerRoutes);
-app.use('/api/contact', contactRoutes);
-app.use('/api/auth', authRoutes);
+app.use('/careers', careerRoutes);
+app.use('/contact', contactRoutes);
+app.use('/auth', authRoutes);
 
 // ─── 404 Handler ──────────────────────────────────────────────────────────────
 app.use((req, res) => {
